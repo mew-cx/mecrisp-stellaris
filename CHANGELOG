@@ -664,3 +664,33 @@
   - Contribution by Andrew Palm:
       - Example collection for STM32F051
       - Trig and SQRT Forth code for s31.32 fixpoint
+
+25.03.2018, Matthias Koch, Mecrisp-Stellaris 2.4.2
+
+  - Defined VALUE and TO in Forth
+  - Added brightness measurement with a LED for STM32F051
+  - Contribution by Andrew Palm:
+      - Improved trig and sqrt code
+      - Sunset and sunrise calculations
+  - Contribution by juju2013@github:
+      New target: Nuvoton NUC123
+
+30.05.2018, Matthias Koch, Mecrisp-Stellaris 2.4.3
+
+  - Bugfix for thumbulator
+  - Contribution by Andrew Palm:
+      - Fixpoint math library
+      - Date & time conversion routines
+      - RTC code for STM32F051
+  - Contribution by Terry Porter:
+      - Updated svd2forth-v2
+  - Contribution by Andreas Wagner:
+      New experimental target: CY8C5888
+
+11.06.2018, Matthias Koch, Mecrisp-Stellaris 2.4.4
+
+  - Added arcsin and arccos to cordic library
+  - Added buffer layer for flash controlers which supports 64 bit writes with ECC only
+  - New target: Analog Devices ADuCM4050
+  - RA binary for STM32F401
+  - Cornerstone for STM32F407
